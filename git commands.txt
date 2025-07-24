@@ -1,0 +1,42 @@
+✅ 🟢 PULL – To Get Latest Changes from GitHub
+bash
+Copy
+Edit
+cd "C:\Users\Gayatri_0949\OneDrive\Desktop\AI_TRAINER"   # Go to your local repo
+git pull origin main                                     # Pull the latest updates from GitHub (main branch)
+Replace main with master if your branch is named that.
+
+✅ 🔴 PUSH – To Upload New Files or Changes to GitHub
+1. Go to your repo folder:
+bash
+Copy
+Edit
+cd "C:\Users\Gayatri_0949\OneDrive\Desktop\AI_TRAINER"   # Navigate to your repo
+2. Add specific files or all files:
+bash
+Copy
+Edit
+git add .    # Add ALL new/modified files (use cautiously)
+# OR
+git add filename.ext   # Add a specific file (e.g., git add ExercModel.ipynb)
+3. Commit with a message:
+bash
+Copy
+Edit
+git commit -m "Your message here"   # Describe your changes
+4. Push to GitHub:
+bash
+Copy
+Edit
+git push origin main   # Push your commit to the main branch on GitHub
+🛠 Optional – Check File Status Before Adding:
+bash
+Copy
+Edit
+git status   # Shows which files are modified, added, or untracked
+🔐 First Time Push Tip:
+If prompted for login:
+
+Username → your GitHub username
+
+Password → paste your Personal Access Token (not GitHub password)
